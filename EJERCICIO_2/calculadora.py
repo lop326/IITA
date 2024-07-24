@@ -11,15 +11,8 @@ def division(num1,num2):
     print(f"{num1} / {num2} = {num1/num2}")
     
 
-print('''
-MENU CALCULADORA
-    1. SUMA
-    2. RESTA
-    3. MULTIPLICACION
-    4. DIVISION
-    5. SALIR
-      '''
-)
+
+
 while True:
     print('''
 MENU CALCULADORA
@@ -27,6 +20,7 @@ MENU CALCULADORA
     2. RESTA
     3. MULTIPLICACION
     4. DIVISION
+    5. SALIR
       '''
 )
     opcion = int(input("opcion: "))
