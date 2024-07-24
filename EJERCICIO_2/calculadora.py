@@ -17,9 +17,18 @@ MENU CALCULADORA
     2. RESTA
     3. MULTIPLICACION
     4. DIVISION
+    5. SALIR
       '''
 )
 while True:
+    print('''
+MENU CALCULADORA
+    1. SUMA
+    2. RESTA
+    3. MULTIPLICACION
+    4. DIVISION
+      '''
+)
     opcion = int(input("opcion: "))
     if opcion in (1,2,3,4):
         num1 = int(input("ingresa numero 1: "))
@@ -35,6 +44,6 @@ while True:
     
     elif opcion== 5:
         print("FIN")
-        
+        break
     else:
         print("opcion incorrecta")
