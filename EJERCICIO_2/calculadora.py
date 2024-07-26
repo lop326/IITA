@@ -14,7 +14,7 @@ def division(num1,num2):
     else:
         return(f"{num1} / {num2} = {num1/num2}")
     
-archivo = open("operaciones.txt", "a")
+
 while True:
     print('''
 MENU CALCULADORA
@@ -37,10 +37,12 @@ MENU CALCULADORA
             op = multiplicacion(num1,num2)
         else:
             op = division(num1,num2)
-        archivo.write(op)
+        print(op)
+        with open("EJERCICIO_2\historial.txt","a") as archivo:
+            archivo.write(op)
     elif opcion== 5:
         print("FIN")
-        archivo.close()
+   
         break
     else:
         print("opcion incorrecta")
