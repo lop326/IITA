@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            postgresql y python
+        </title>
+        <link rel="stylesheet" href="style.css">
+        <meta charset="UTF-8">
+    </head>
+
+    <body>
+        <h1>POSTGRESQL Y PYTHON</h1>
+        <img src="imagenes\postgresql.webp" alt="logo de postgresql">
+
+        <h2>¿QUE ES POSTGRESQL?</h2>
+        <p>PostgreSQL es un sistema de gestión de bases de datos relacional 
+            de código abierto, conocido por su robustez, escalabilidad 
+            y cumplimiento con los estándares SQL.</p>
+
+        <h3>Existen otros programas como:</h3>
+        <ul>
+            <li>MySql</li>
+            <li>Microsoft SQL Server</li>
+            <li>Oracle</li>
+            <li>Cassandra</li>
+            <li>MongoDB</li>
+        </ul>
+            
+        <h2>PGADMIN</h2>
+        <p>Pgadmin es una interfaz grafica propía de postgresql que nos 
+            ayudara a crear o gestionar nuestra base de datos. </p>
+        
+        <h2>POSTGRESQL CON PYTHON</h2>
+        <img src="imagenes/sqlpy.png" alt="postgres con python" name="postgresql">
+        <p>
+            Si bien nosotros podemos gestionar la base de datos mediante su 
+            intefaz grafica comdamente, tambien podemos hacerlo a traves de el lenguaje de python.
+            Para lograr esto debemos primero de instalar una libreria que nos ayudara a conectarnos con la BDD.
+
+        </p>
+        <h3>INSTALACION DE PSYCOPG2</h3>
+        <p>Para instalar la libreria debemos de ir a nuestra terminal donde ingresaremos lo siguiente.</p>
+
+        <span>pip install psycopg2</span>
+
+        <p>NOTA: personalmente prefiero crear un entorno virtual antes de instalar dicha libreria para evitar algunos errores.</p>
+        
+        <h2>CONEXION</h2>
+        <p>Para poder controlar nuestr base de datos con python debemos de realizar primero una conexion de la siguiente
+            manera:
+        </p>
+        <img src="imagenes/conexion.png" alt="conexion con python">
+
+        <h2>CREAR TABLA</h2>
+        <p>
+            Al crear la tabla debemos de definir nuestros campos, asi como tambien sus propiedades
+        </p>
+        <img src="imagenes/creando_tabla.png" alt="creando_tabla">
+        <h2>INGRESAR DATOS</h2>
+
+        <p>Al ingresar datos, debemos de nombrar los campos y luego los valores que ingresaremos</p>
+        <img src="imagenes/insert_datos.png" alt="insertando datos">
+
+        <h2>ACTUALIZAR</h2>
+        <p>Tambien podemos actualizar datos particulares</p>
+        <img src="imagenes/ACTUALIZANDO.png" alt="actualizando datos">
+
+        <h2>MOSTRAR</h2>
+        <p>con la siguiente forma podremos traer y mostrar datos de nuestra base datos</p>
+        <img src="imagenes/MOSTRAR.png" alt="mostrando datos">
+        <h2>CERRANDO CONEXION</h2>
+        <p>Como toda conexion que se abre, tambien se debe de cerrar</p>
+        <img src="imagenes/cerrar.png" alt="cerrando conexion">
+    </body>
+
+</html>
