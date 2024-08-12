@@ -1,6 +1,6 @@
 from http.server import BaseHTTPRequestHandler, HTTPServer
 import os
-
+import requests
 hostName = "localhost"
 serverPort = 8080
 
@@ -40,7 +40,17 @@ class MyServer(BaseHTTPRequestHandler):
             else:
                 self.send_response(404)
                 self.end_headers()
-
+                
+        elif self.path == "/example":
+            url = "https://jsonplaceholder.typicode.com/comments"
+            response = requests.get(url)
+            self.send_response(200)
+            self.send_header("Content-type", "application/json; charset=utf-8")
+            self.end_headers()
+                
+            self.wfile.write(bytes(response.text, "utf-8"))
+    
+        
         else:
             self.send_response(404)
             self.end_headers()
