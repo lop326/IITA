@@ -1,0 +1,50 @@
+{
+    "JUAN": {
+        "netflix": {
+            "email": "juan@juan.com",
+            "password": "juan"
+        }
+    },
+    "PEDRO": {
+        "disney": {
+            "email": "pedro@pedro.com",
+            "password": "pedro"
+        },
+        "netflix": {
+            "email": "pedro@pedro.com",
+            "password": "pedro"
+        }
+    },
+    "MARCOS": {
+        "netflix": {
+            "email": "marcos@marcos",
+            "password": "marcos"
+        },
+        "disney": {
+            "email": "marcos@marcos.com",
+            "password": "marcos"
+        }
+    },
+    "lOPEZ": {
+        "netflix": {
+            "email": "LOPEZ@LOPEZ.com",
+            "password": "LOPEZ>_NETFLIX"
+        },
+        "disney": {
+            "email": "LOPEZ@LOPEZ.com",
+            "password": "LOPEZ_DISNEY"
+        }
+    },
+    "CARLOS": {
+        "netflix": {
+            "email": "CARLOS@CARLOS.com",
+            "password": "CARLOS"
+        }
+    },
+    "LOPEZ": {
+        "netflix": {
+            "email": "alberto@alvaro.com",
+            "password": "1234"
+        }
+    }
+}

@@ -1,0 +1,61 @@
+/* Estilo global */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('../IMAGENES/fondo.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    text-align: center;
+}
+
+/* Encabezado principal */
+h1 {
+    font-size: 50px;
+    color: black;
+}
+
+/* Párrafo descriptivo */
+p {
+    font-size: 20px;
+    color: black;
+    background-color: gainsboro;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+/* Subtítulo y lista */
+h3 {
+    font-size: 30px;
+    color: black;
+    margin-bottom: 10px;
+    background-color: gainsboro;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li button{
+    color: white;
+    font-size: 20px;
+    background-color: black;
+    padding: 10px 20px;
+    margin: 10px 0;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+li button:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+}

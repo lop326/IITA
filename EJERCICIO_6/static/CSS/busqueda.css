@@ -1,0 +1,97 @@
+html, body {
+    height:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url('../IMAGENES/busqueda.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    flex-direction: column;
+    text-align: center;
+}
+
+.gestor {
+    width: 400px;
+    height: 300px;
+    padding: 20px;
+    background-color: none;
+    border-radius: 8px;
+    box-shadow:0 0 40px black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.gestor h2 {
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.gestor input[type="text"]{
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+.gestor input[type="submit"] {
+    width: 40%;
+    padding: 10px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+
+    
+}
+
+.gestor input[type="submit"]:hover {
+    background-color: #45a049;
+}
+.mensaje{
+    width: 400px;
+    height: 140px;
+    background-color: rgb(119, 164, 194);
+    border-radius: 8px;
+    box-shadow: 0 0 15px black;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    box-sizing: border-box;
+    margin: 60px 0;
+}
+.mensaje ul{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-align: left;
+}
+.mensaje p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-align: center;
+    margin: 0px 0;
+    font-weight: bold;
+}
+button{
+    color: white;
+    font-size: 20px;
+    background-color: green;
+    padding: 10px 20px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #45a049;
+}

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GESTOR</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='CSS/index.css') }}">
+    <!--link rel="stylesheet" href="../static/CSS/index.css"-->
+</head>
+<body>
+        <h1>GESTIONADOR DE CUENTAS</h1>
+        <p>Esta pagina funciona como un getionador de varios tipos de cuentas donde se pedira datos
+            personales.
+        </p>
+    
+    <ul>
+        <li><button type="button" onclick="location.href='/busqueda'">BUSCAR</button></li>
+        <li><button type="button" onclick="location.href='/gestor'">AGREGAR</button></li>
+        <li><button>ACTUALIZAR</button></li>
+        <li><button>BORRAR</button></li>
+    </ul>
+
+</body>
+</html>
